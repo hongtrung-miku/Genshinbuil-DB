@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genshin Character Guide</title>
+
+    <style>
+        body {
+            font-family: Arial, times, sans-serif;
+            background-color: deepskyblue;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        p {
+           color: var(--p-color, deepskyblue);
+            text-align: center;
+            line-height: 1.5;
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+        }
+
+        .character-overview {
+            display: flex;
+            align-items: flex-start;
+            gap: 24px;
+            padding: 20px;
+        }
+
+        .BGimage {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .BGimage img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .build-info {
+            flex: 1;
+            min-width: 0;
+            padding: 20px;
+            background-color: white;
+            color: black;
+            border-radius: 12px;
+        }
+
+        .team-section {
+            padding: 20px;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 20px;
+        }
+
+        .team-card {
+            background-color: white;
+            color: black;
+            padding: 16px;
+            border-radius: 12px;
+        }
+
+        .team-characters {
+            display: flex;
+            gap: 10px;
+        }
+
+        .team-characters img {
+            width: calc((100% - 30px) / 4);
+            height: auto;
+            object-fit: contain;
+        }
+
+        .build-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .build-item img {
+            width: 90px;
+            height: 90px;
+            object-fit: contain;
+            flex-shrink: 0;
+        }
+
+        .build-description {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .build-description h3 {
+            margin-top: 0;
+            margin-bottom: 8px;
+        }
+
+        .build-description h4 {
+            margin: 0 0 8px;
+            color: #247eac;
+        }
+
+        .build-description p {
+            margin: 0 0 8px;
+            line-height: 1.5;
+        }
+
+        .talent-images {
+            display: flex;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+
+        #talentImages img {
+            width: 65px;
+            height: 65px;
+            object-fit: contain;
+        }
+
+        @media (max-width: 768px) {
+            .character-overview {
+                flex-direction: column;
+            }
+
+            .BGimage,
+            .build-info {
+                width: 100%;
+                box-sizing: border-box;
+            }
+
+            .team-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="characterName">Tên nhân vật</h1>
+        <h2 id="characterSubtitle">Tiêu đề build</h2>
+    </header>
+
+    <main>
+
+        <!-- Khu vực ảnh và thông tin build -->
+        <div class="character-overview">
+
+            <div class="BGimage">
+                <img id="characterImage" src="" alt="Character">
+            </div>
+
+            <div class="build-info">
+
+                <h2>Recommended Build</h2>
+
+                <!-- Vũ khí -->
+                <div class="build-item">
+
+                    <img id="weaponImage" src="" alt="Weapon">
+
+                    <div class="build-description">
+                        <h3>Vũ khí phù hợp nhất</h3>
+                        <h4 id="weaponName"></h4>
+                        <div id="weaponDescription"></div>
+                    </div>
+
+                </div>
+
+                <!-- Thánh di vật -->
+                <div class="build-item">
+
+                    <img id="artifactImage" src="" alt="Artifact">
+
+                    <div class="build-description">
+                        <h3>Thánh di vật phù hợp</h3>
+                        <h4 id="artifactName"></h4>
+                        <div id="artifactDescription"></div>
+                    </div>
+
+                </div>
+
+                <!-- Thiên phú -->
+                <div class="build-item">
+
+                    <div class="talent-images" id="talentImages"></div>
+
+                    <div class="build-description">
+                        <h3>Thứ tự nâng thiên phú</h3>
+                        <h4 id="talentPriority"></h4>
+                        <div id="talentDescription"></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Khu vực đội hình -->
+        <section class="team-section">
+            <h2>Recommended Teams</h2>
+
+            <div class="team-grid" id="teamList">
+                <!-- CharOperator.js sẽ tạo đội hình ở đây -->
+            </div>
+        </section>
+
+    </main>
+
+    <script src="charinfo.js"></script>
+    <script src="CharOperator.js"></script>
+
+</body>
+</html>

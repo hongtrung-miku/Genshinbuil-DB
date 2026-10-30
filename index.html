@@ -1,0 +1,207 @@
+<doctype html>
+    <html lang="vi">
+        <head>
+            <meta charset="UTF-8">
+
+             <title>Genshin hyper build</title>
+        </head>
+
+
+<style>
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: deepskyblue;
+   
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    align-items: center;
+   -webkit-text-stroke: 0.3px#001F3F;
+}
+
+p {
+    color: black;
+    text-align: center;
+    line-height: 1.5;
+   -webkit-text-stroke: 0.3px#001F3F;
+}
+
+.character-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    padding: 15px;
+}
+
+.character-grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}
+.character-card {
+    text-align: center;
+}
+
+.character-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+}.search-box {
+    text-align: center;
+    margin: 25px 0;
+}
+
+.search-box input {
+    width: 50%;
+    max-width: 400px;
+    padding: 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+</style>
+
+
+
+        <body>
+            <h1>Genshin hyper build</h1>
+            <p>Chào mừng bạn đến với trang web Genshin hyper build! Đây là nơi bạn có thể tìm thấy các hướng dẫn và thông tin về cách xây dựng nhân vật trong trò chơi Genshin Impact.</p>
+            <p>Hãy khám phá các bài viết và hướng dẫn để nâng cao kỹ năng chơi của bạn!</p>
+          
+          <div class="search-box">
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Bạn đang tìm ai?..."</div>
+
+          </input>
+          
+
+
+            <div class="character-grid">
+    <div class="character-card">
+          <a href="/htmlgenshin/CharacterInterface.html?name=furina">
+        <img src="/imgGenShin/char/furina.jpg" alt="Furina">
+        <h2>Furina</h2>
+        </a>
+    </div>
+
+
+
+
+    <div class="character-card">
+        <a href="/htmlgenshin/CharacterInterface.html?name=hutao">
+        <img src="/imgGenShin/char/Hutao.webp" alt="Hu Tao">
+        <h2>Hu Tao</h2></a>
+    </div>
+
+
+
+    
+    <div class="character-card">
+        <a href="/htmlgenshin/CharacterInterface.html?name=xilonen">
+        <img src="/imgGenShin/char/xilonen.webp" alt="Xilone">
+        <h2>Xilone</h2></a>
+    </div>
+
+
+
+
+    <div class="character-card">
+        <a href="/htmlgenshin/CharacterInterface.html?name=nicole">
+        <img src="/imgGenShin/char/nicole.jpg" alt="Nicole">
+        <h2>Nicole</h2>
+        </a>
+    </div>
+
+
+      <div class="character-card">
+        <a href="/htmlgenshin/CharacterInterface.html?name=yelan">
+        <img src="/imgGenShin/char/yelan.webp" alt="Yelan">
+        <h2>Yelan</h2>
+        </a>
+    </div>
+      <div class="character-card">
+        <a href="/htmlgenshin/CharacterInterface.html?name=sandrone">
+        <img src="/imgGenShin/char/sandrone.jpg" alt="sandrone">
+        <h2>Sandrone</h2>
+        </a>
+ </div>
+        <div class="character-card">
+        <a href="/htmlgenshin/CharacterInterface.html?name=yae-miko">
+        <img src="/imgGenShin/char/Yae Miko.webp" alt="Yae Miko">
+        <h2>Yae Miko</h2>
+        </a>
+ </div>
+         
+           <div class="character-card">
+        <a href="/htmlgenshin/CharacterInterface.html?name=odette">
+        <img src="/imgGenShin/char/odette.jpg" alt="Odette">
+        <h2>Odette</h2>
+        </a>
+ </div> 
+                <div class="character-card">
+        <a href="/htmlgenshin/CharacterInterface.html?name=qiqi">
+        <img src="/imgGenShin/char/qiqi.jpg" alt="Qiqi">
+        <h2>Qiqi</h2>
+        </a>
+ </div> 
+
+                <div class="character-card">
+        <a href="/htmlgenshin/CharacterInterface.html?name=K.K.">
+        <img src="/imgGenShin/char/K.K.jpg" alt="K.K.">
+        <h2>K.K.</h2>
+        </a>
+ </div> 
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<script>
+
+const searchInput = document.getElementById('searchInput');
+const characterCards = document.querySelectorAll('.character-card');
+
+
+
+searchInput.addEventListener('input', function() {
+
+    const keyword = searchInput.value.toLowerCase().trim();
+    characterCards.forEach(function(character) {
+
+
+     const Name = character.querySelector('h2').textContent.toLowerCase();
+
+        if (Name.includes(keyword)) {
+           character.style.display = "";
+}       else {
+           character.style.display = "none";}
+
+
+
+    
+}); 
+});
+
+
+
+    </script>
+
+
+
+
+
+            </body>
