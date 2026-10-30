@@ -54,21 +54,23 @@
             color: black;
             border-radius: 12px;
         }
-
-         .team-section {
+        .team-section {
             padding: 20px;
-             display: flex;
+            display: flex;
             flex-direction: column;
             align-items: center;
+            width: 100%;
+            box-sizing: border-box;
 }
 
         .team-grid {
-             display: grid;
-              grid-template-columns: repeat(2, minmax(0, 1fr));
-             gap: 20px;
-             width: 100%;
-             max-width: 1200px;
-              margin: 0 auto;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr);
+            justify-items: center;
+            gap: 20px;
+            width: 100%;
+            max-width: 1500px;
+            margin: 0 auto;
 }
         .team-card {
             background-color: white;
