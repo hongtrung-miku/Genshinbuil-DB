@@ -80,7 +80,7 @@ const characters = {
         subtitle: "Hyper build",
         backgroundColor: "#762B32",
         pcolor: "#ac4f58",
-        image: "./imgGenShin/BGR/HuTaoB.webp",
+        image: "./imgGenShin/BGR/HutaoB.webp",
 
         // 2. Vũ khí
         weapon: {
