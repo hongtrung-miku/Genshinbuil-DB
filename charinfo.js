@@ -101,7 +101,7 @@ const characters = {
             title: "Thánh di vật phù hợp",
             description: [
                 "Bộ 4 món phù hợp cho cách chơi của Hu Tao.",
-                "Nếu không có, có thể thay thế bằng Thợ săn hoặc Giất Mọng Hoàng Kim."
+                "Nếu không có, có thể thay thế bằng Thợ săn hoặc Giấc Mọng Hoàng Kim."
             ]
         },
 
