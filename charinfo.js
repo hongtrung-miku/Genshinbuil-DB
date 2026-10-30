@@ -7,12 +7,12 @@ const characters = {
         backgroundColor: "#168DB5",
         pcolor: "#276b82",
         subtitle: "Hyper build",
-        image: "/imgGenShin/BGR/FurinaB.webp",
+        image: "./imgGenShin/BGR/FurinaB.webp",
 
         // 2. Vũ khí
         weapon: {
             name: "Răng nanh rỉ sét",
-            image: "/imgGenShin/wp/răng.webp",
+            image: "./imgGenShin/wp/răng.webp",
             title: "Vũ khí phù hợp nhất",
             description: [
                 "Vũ khí 5 sao đề xuất cho Furina.",
@@ -24,7 +24,7 @@ const characters = {
         // 3. Thánh di vật
         artifact: {
             name: "Đoàn kịch hoàng kim",
-            image: "/imgGenShin/Atifact/Đk.webp",
+            image: "./imgGenShin/Atifact/Đk.webp",
             title: "Thánh di vật phù hợp",
             description: [
                 "Bộ 4 món phù hợp cho cách chơi của Furina.",
@@ -40,8 +40,8 @@ const characters = {
                 "Kỹ năng nộ"
             ],
             images: [
-                "/imgGenShin/Skill/FurinaS/FuE.png",
-                "/imgGenShin/Skill/FurinaS/FuQ.png"
+                "./imgGenShin/Skill/FurinaS/FuE.png",
+                "./imgGenShin/Skill/FurinaS/FuQ.png"
             ],
             description:
                 "Ưu tiên nâng kỹ năng dựa trên vai trò và cách xây dựng nhân vật."
@@ -54,19 +54,19 @@ const characters = {
                 members: [
                     {
                         name: "Furina",
-                        image: "/imgGenShin/char/furina.jpg"
+                        image: "./imgGenShin/char/furina.jpg"
                     },
                     {
                         name: "Hu Tao",
-                        image: "/imgGenShin/char/Hutao.webp"
+                        image: "./imgGenShin/char/Hutao.webp"
                     },
                     {
                         name: "Yelan",
-                        image: "/imgGenShin/char/yelan.webp"
+                        image: "./imgGenShin/char/yelan.webp"
                     },
                     {
                         name: "Xilonen",
-                        image: "/imgGenShin/char/xilonen.webp"
+                        image: "./imgGenShin/char/xilonen.webp"
                     }
                 ],
                 description:
@@ -80,12 +80,12 @@ const characters = {
         subtitle: "Hyper build",
         backgroundColor: "#762B32",
         pcolor: "#ac4f58",
-        image: "/imgGenShin/BGR/HuTaoB.webp",
+        image: "./imgGenShin/BGR/HuTaoB.webp",
 
         // 2. Vũ khí
         weapon: {
             name: "Trượng HOMA",
-            image: "/imgGenShin/wp/HOMA.webp",
+            image: "./imgGenShin/wp/HOMA.webp",
             title: "Vũ khí phù hợp nhất",
             description: [
                 "Vũ khí 5 sao đề xuất cho Hu Tao.",
@@ -97,7 +97,7 @@ const characters = {
         // 3. Thánh di vật
         artifact: {
             name: "DIệm Liệt Ma Nữ Cháy Rực",
-            image: "/imgGenShin/Atifact/MN.webp",
+            image: "./imgGenShin/Atifact/MN.webp",
             title: "Thánh di vật phù hợp",
             description: [
                 "Bộ 4 món phù hợp cho cách chơi của Hu Tao.",
@@ -114,8 +114,8 @@ const characters = {
                 "Kỹ năng Nộ Nâng Tùy Nhu cầu"
             ],
             images: [
-                "/imgGenShin/Skill/HutaoS/HutaoNA.png",
-                "/imgGenShin/Skill/HutaoS/HutaoQ.png"
+                "./imgGenShin/Skill/HutaoS/HutaoNA.png",
+                "./imgGenShin/Skill/HutaoS/HutaoQ.png"
             ],
             description:
                 "Ưu tiên nâng kỹ năng dựa trên vai trò và cách xây dựng nhân vật."
@@ -128,19 +128,19 @@ const characters = {
                 members: [
                     {
                         name: "Furina",
-                        image: "/imgGenShin/char/furina.jpg"
+                        image: "./imgGenShin/char/furina.jpg"
                     },
                     {
                         name: "Hu Tao",
-                        image: "/imgGenShin/char/Hutao.webp"
+                        image: "./imgGenShin/char/Hutao.webp"
                     },
                     {
                         name: "Yelan",
-                        image: "/imgGenShin/char/yelan.webp"
+                        image: "./imgGenShin/char/yelan.webp"
                     },
                     {
                         name: "Xilonen",
-                        image: "/imgGenShin/char/xilonen.webp"
+                        image: "./imgGenShin/char/xilonen.webp"
                     }
                 ],
                 description:
