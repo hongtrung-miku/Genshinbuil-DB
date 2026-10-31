@@ -437,7 +437,7 @@ yelan : {
                         image: "./imgGenShin/char/Yae Miko.webp"
                     },
                     {
-                        name: "Sandrone,
+                        name: "Sandrone",
                         image: "./imgGenShin/char/sandrone.jpg"
                     },
                     {
@@ -456,6 +456,81 @@ yelan : {
     },
 
 
+
+ sandrone : {
+        // 1. Thông tin cơ bản
+        name: "Sandrone",
+        subtitle: "Hyper build",
+        backgroundColor: "#F7FDF1",
+        pcolor: "#960203",
+        image: "./imgGenShin/BGR/SandroneB.webp",
+
+        // 2. Vũ khí
+        weapon: {
+            name: "Muỗng Trà Siêu Việt",
+            image: "./imgGenShin/wp/Muỗng-trà.webp",
+            title: "Vũ khí phù hợp nhất",
+            description: [
+                "Vũ khí đề xuất cho Sandrone.",
+                "Sandrone là dps trên sân xoay quanh phản ứng tinh siêu dẫn không sử dụng các buff sát thương cộng thêm thông thường , các vũ khí cung cấp bạo kích và ATK đều có thể sử dụng được .",
+                "Ngoài trấn có thể cung cấp lượng lớn chỉ số ATK cũng như bạo kích cho Sandrone có thể dùng các vũ khí 5 sao tương tự cung cấp chỉ số ATK và bạo kích .Phương án kiến nghị là (Đường cùng của sói),(Nhát chém cứu rổi)"
+            ]
+        },
+
+        // 3. Thánh di vật
+        artifact: {
+            name: "Ảo Tưởng Vụn Vỡ Trong Bóng Tối",
+            image: "./imgGenShin/Atifact/AT.webp",
+            title: "Thánh di vật phù hợp",
+            description: [
+                "Bộ 4 món gần như là lựa chọn duy nhất cho Sandrone.",
+                "Phương án mạnh nhât cho Sandrone trong đội hình tinh siêu dẫn , nếu không sở hữu bộ 4 món đẹp có thề dùng các bộ ghép tăng ATK.  ."
+            ]
+        },
+
+        // 4. Thiên phú
+        talents: {
+            title: "Thứ tự nâng thiên phú",
+            priority: [
+                "Kỹ năng đánh thường",
+                "Kỹ năng nộ",
+            
+            ],
+            images: [
+                "./imgGenShin/Skill/SandroneS/SandroneNA.png",
+                "./imgGenShin/Skill/SandroneS/SandroneQ.png"
+            ],
+            description:
+                "Cả nộ và đánh thường của Sandrone đều đóng góp lượng lớn sát thương trong lối chơi của Sandrone, kỹ năng nguyên tố nâng theo nhu cầu."
+        },
+
+        // 5. Đội hình
+        teams: [
+            {
+                name: "Sandrone tinh siêu dẫn",
+                members: [
+                    {
+                        name: "Sandrone,
+                        image: "./imgGenShin/char/sandrone.jpg" 
+                    },
+                    {
+                        name: "Yae Miko",
+                        image: "./imgGenShin/char/Yae Miko.webp" 
+                    },
+                    {
+                        name: "Odette",
+                        image: "./imgGenShin/char/odette.jpg"
+                    },
+                    {
+                        name: "QiQi",
+                        image: "./imgGenShin/char/qiqi.jpg"
+                    }
+                ],
+                description:
+                    "Rottation: Yae Miko 3E > Odette 2E (Trừ kháng ,buff sát thương) , QiQi E/(EQ nếu có C6) > Sandrone CaE-Q-CaE/CaE-CaE"
+            }
+        ]
+    },
 
 
     
