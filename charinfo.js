@@ -308,7 +308,7 @@ yelan : {
         name: "Nicole",
         subtitle: "Hyper build",
         backgroundColor: "#EDAE9F",
-        pcolor: "#7389CE",
+        pcolor: "#dcb37b",
         image: "./imgGenShin/BGR/NicoleB.webp",
 
         // 2. Vũ khí
