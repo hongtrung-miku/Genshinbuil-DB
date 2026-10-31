@@ -221,7 +221,83 @@ yelan : {
                     "Rottation: Furina EQ(lấy buff) > Xilonen EQ (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
             }
         ]
-    }
+    },  
+
+
+     xilonen : {
+        // 1. Thông tin cơ bản
+        name: "Xilonen",
+        subtitle: "Hyper build",
+        backgroundColor: "#d7ae6b",
+        pcolor: "#D99A39",
+        image: "./imgGenShin/BGR/XilonenB.webp",
+
+        // 2. Vũ khí
+        weapon: {
+            name: "Khúc ca núi đá",
+            image: "./imgGenShin/wp/Khúc-ca.webp",
+            title: "Vũ khí phù hợp nhất",
+            description: [
+                "Vũ khí đề xuất cho Xilonen.",
+                "Lượng Debuff của xilonen gần xoay quanh cấp độ của kỹ năng nguyên tố nên không cần thiết phải sữ dụng vũ khí tăng chỉ số .",
+                "Ngoài trấn có thể cung cấp thêm một lượng buff sát thương nguyên tố có thể dùng (Lời thề tự do cổ xưa) với chức năng tương tự) không có khuyến nghị dùng (Tây phong kiếm) để hổ trợ nạp cho đội hình ."
+            ]
+        },
+
+        // 3. Thánh di vật
+        artifact: {
+            name: "Bức Tranh Dũng Sĩ Thành Tro Tàn",
+            image: "./imgGenShin/Atifact/BT.webp",
+            title: "Thánh di vật phù hợp",
+            description: [
+                "Bộ 4 món phù hợp cho cách chơi của Xilonen",
+                "Nếu không có hoặc trong đội đã có nhân vật khác dùng bộ di vật kể trên, có thể thay thế bằng các bộ di vật hổ trợ khác phù hợp vơi đội hình"
+            ]
+        },
+
+        // 4. Thiên phú
+        talents: {
+            title: "Thứ tự nâng thiên phú",
+            priority: [
+                "Kỹ năng nguyên tố",
+                "Kỹ năng nộ",
+            
+            ],
+            images: [
+                "./imgGenShin/Skill/XilonenS/XilonenE.png",
+                "./imgGenShin/Skill/XilonenS/XilonenQ.png"
+            ],
+            description:
+                "Xilonen chỉ cần nâng kỹ năng nguyên tố để phát huy vai trò debuff của mình ngoài ra có thê nâng 6-8 điểm vào kỹ năng nộ để gia tăng lượng trị liệu."
+        },
+
+        // 5. Đội hình
+        teams: [
+            {
+                name: "Hu Tao bốc hơi full form",
+                members: [
+                    {
+                        name: "Furina",
+                        image: "./imgGenShin/char/furina.jpg"
+                    },
+                    {
+                        name: "Hu Tao",
+                        image: "./imgGenShin/char/Hutao.webp"
+                    },
+                    {
+                        name: "Yelan",
+                        image: "./imgGenShin/char/yelan.webp"
+                    },
+                    {
+                        name: "Xilonen",
+                        image: "./imgGenShin/char/xilonen.webp"
+                    }
+                ],
+                description:
+                    "Rottation: Furina EQ(lấy buff) > Xilonen EQ (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
+            }
+        ]
+    },
 
 
 
