@@ -457,7 +457,7 @@ yelan : {
 
 
 
- sandrone : {
+    sandrone : {
         // 1. Thông tin cơ bản
         name: "Sandrone",
         subtitle: "Hyper build",
@@ -510,7 +510,7 @@ yelan : {
                 name: "Sandrone tinh siêu dẫn",
                 members: [
                     {
-                        name: "Sandrone,
+                        name: "Sandrone",
                         image: "./imgGenShin/char/sandrone.jpg" 
                     },
                     {
