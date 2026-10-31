@@ -188,8 +188,8 @@ yelan : {
                 "Kỹ năng đánh thường nâng tùy nhu cầu"
             ],
             images: [
-                "./imgGenShin/Skill/HutaoS/YelanQ.png",
-                "./imgGenShin/Skill/HutaoS/YelanE.png"
+                "./imgGenShin/Skill/YelanS/YelanQ.png",
+                "./imgGenShin/Skill/YelanS/YelanE.png"
             ],
             description:
                 "Ưu tiên nâng kỹ năng dựa trên vai trò và cách xây dựng nhân vật."
