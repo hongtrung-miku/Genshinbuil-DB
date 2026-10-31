@@ -303,6 +303,85 @@ yelan : {
 
 
 
+     nicole : {
+        // 1. Thông tin cơ bản
+        name: "Nicole",
+        subtitle: "Hyper build",
+        backgroundColor: "#EDAE9F",
+        pcolor: "#7389CE",
+        image: "./imgGenShin/BGR/NicoleB.webp",
+
+        // 2. Vũ khí
+        weapon: {
+            name: "Trần quang thất dụ",
+            image: "./imgGenShin/wp/Thất-dụ.webp",
+            title: "Vũ khí phù hợp nhất",
+            description: [
+                "Vũ khí đề xuất cho Nicole.",
+                "Lượng Debuff của Nicole xoay quanh Kỹ năng nguyên tố và chỉ số ATK của cô ta ưu tiên các vũ khí có lượng lớn tân công .",
+                "Ngoài trấn có thể cung cấp lượng lớn chỉ số ATK cho Nicole và buff sát thương cộng thêm cho đồng đội thì có thể dùng bất kỳ vũ khí nào cung cấp lượng lớn tân công cho người trang bị như (Quyển thiên không...), trong trường hợp Rottaion cho phép có thể dùng (Câu chuyện diệt rồng)."
+            ]
+        },
+
+        // 3. Thánh di vật
+        artifact: {
+            name: "Phước lành trời cao",
+            image: "./imgGenShin/Atifact/PL.webp",
+            title: "Thánh di vật phù hợp",
+            description: [
+                "Bộ 4 món phù hợp cho cách chơi của Nicole",
+                "Cung cấp thêm 40% sát thương cộng thêm cho đồng đội nếu không có hoặc đã có nhân vật khác trong đội sữ dụng có thể dùng các bộ di vật hổ trợ khác hoặc các bộ ghép tăng ATK"
+            ]
+        },
+
+        // 4. Thiên phú
+        talents: {
+            title: "Thứ tự nâng thiên phú",
+            priority: [
+                "Kỹ năng nguyên tố",
+                "Kỹ năng nộ",
+            
+            ],
+            images: [
+                "./imgGenShin/Skill/NicoleS/NicoleE.png",
+                "./imgGenShin/Skill/NicoleS/NicoleQ.png"
+            ],
+            description:
+                "Xilonen chỉ cần nâng kỹ năng nguyên tố để phát huy vai trò debuff của mình ngoài ra có thê nâng 6-8 điểm vào kỹ năng nộ để gia tăng lượng trị liệu."
+        },
+
+        // 5. Đội hình
+        teams: [
+            {
+                name: "Hu Tao bốc hơi fake bennet",
+                members: [
+                    {
+                        name: "Nicole",
+                        image: "./imgGenShin/char/nicole.jpg"
+                    },
+                    {
+                        name: "Hu Tao",
+                        image: "./imgGenShin/char/Hutao.webp"
+                    },
+                    {
+                        name: "Yelan",
+                        image: "./imgGenShin/char/yelan.webp"
+                    },
+                    {
+                        name: "Xilonen",
+                        image: "./imgGenShin/char/xilonen.webp"
+                    }
+                ],
+                description:
+                    "Rottation: Nicole EQ(lấy buff) > Xilonen E2Na (Trừ kháng ,buff sát thương) , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
+            }
+        ]
+    },
+
+
+
+
+
 
 
 
