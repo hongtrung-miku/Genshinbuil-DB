@@ -461,7 +461,7 @@ yelan : {
         // 1. Thông tin cơ bản
         name: "Sandrone",
         subtitle: "Hyper build",
-        backgroundColor: "#F7FDF1",
+        backgroundColor: "#2B2B37",
         pcolor: "#960203",
         image: "./imgGenShin/BGR/SandroneB.webp",
 
