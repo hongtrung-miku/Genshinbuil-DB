@@ -380,6 +380,88 @@ yelan : {
 
 
 
+     miko : {
+        // 1. Thông tin cơ bản
+        name: "Yae Miko",
+        subtitle: "Hyper build",
+        backgroundColor: "#F4B9B4",
+        pcolor: "#B4526E",
+        image: "./imgGenShin/BGR/MikoB.webp",
+
+        // 2. Vũ khí
+        weapon: {
+            name: "Chân ý của Kagura",
+            image: "./imgGenShin/wp/Chân-ý.webp",
+            title: "Vũ khí phù hợp nhất",
+            description: [
+                "Vũ khí đề xuất cho Yae Miko.",
+                "Yae Miko mang vai trò hỗ trợ sát thương ngoài sân từ kỹ năng nguyên tố ưu tiên những vũ khí gia tăng ATK và bạo kích .",
+                "Ngoài trấn có thể cung cấp lượng lớn chỉ số ATK cũng như bạo kích cho Yae Miko có thể dùng các vũ khí tương tự , có thể dùng (Chương nhạc lang thang) vì cả 3 dòng nội tại đều phù hợp cho miko ."
+            ]
+        },
+
+        // 3. Thánh di vật
+        artifact: {
+            name: "Ảo Tưởng Vụn Vỡ Trong Bóng Tối",
+            image: "./imgGenShin/Atifact/AT.webp",
+            title: "Thánh di vật phù hợp",
+            description: [
+                "Bộ 4 món phù hợp cho cách chơi của Yae Miko",
+                "Phương án mạnh nhât cho Yae Miko trong đội hình tinh siêu dẫn , trong các đội hình khác có thể dùng bộ (Đoàn kịch hoàn kim) nếu không có , có thể dùng các bộ ghép ATK và sát thương nguyên tố lôi ."
+            ]
+        },
+
+        // 4. Thiên phú
+        talents: {
+            title: "Thứ tự nâng thiên phú",
+            priority: [
+                "Kỹ năng nguyên tố",
+                "Kỹ năng nộ",
+            
+            ],
+            images: [
+                "./imgGenShin/Skill/MikoS/MikoE.png",
+                "./imgGenShin/Skill/MikoS/MikoQ.png"
+            ],
+            description:
+                "Yae Miko chỉ cần nâng kỹ năng nguyên tố để phát huy vai trò hỗ trợ sát thương ngoài sân , kỹ năng nộ và đánh thường nâng theo nhu cầu."
+        },
+
+        // 5. Đội hình
+        teams: [
+            {
+                name: "Sandrone tinh siêu dẫn",
+                members: [
+                    {
+                        name: "Yae Miko",
+                        image: "./imgGenShin/char/Yae Miko.webp"
+                    },
+                    {
+                        name: "Sandrone,
+                        image: "./imgGenShin/char/sandrone.jpg"
+                    },
+                    {
+                        name: "Odette",
+                        image: "./imgGenShin/char/odette.jpg"
+                    },
+                    {
+                        name: "QiQi",
+                        image: "./imgGenShin/char/qiqi.jpg"
+                    }
+                ],
+                description:
+                    "Rottation: Yae Miko 3E > Odette 2E (Trừ kháng ,buff sát thương) , QiQi E/(EQ nếu có C6) > Sandrone CaE-Q-CaE/CaE-CaE"
+            }
+        ]
+    },
+
+
+
+
+    
+
+
+
 
 
 
