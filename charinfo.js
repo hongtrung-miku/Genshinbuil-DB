@@ -127,12 +127,12 @@ const characters = {
                 name: "Hu Tao bốc hơi full form",
                 members: [
                     {
-                        name: "Furina",
-                        image: "./imgGenShin/char/furina.jpg"
+                         name: "Hu Tao",
+                        image: "./imgGenShin/char/Hutao.webp"
                     },
                     {
-                        name: "Hu Tao",
-                        image: "./imgGenShin/char/Hutao.webp"
+                        name: "Furina",
+                        image: "./imgGenShin/char/furina.jpg"
                     },
                     {
                         name: "Yelan",
@@ -277,8 +277,8 @@ yelan : {
                 name: "Hu Tao bốc hơi full form",
                 members: [
                     {
-                        name: "Furina",
-                        image: "./imgGenShin/char/furina.jpg"
+                       name: "Xilonen",
+                        image: "./imgGenShin/char/xilonen.webp"
                     },
                     {
                         name: "Hu Tao",
@@ -289,8 +289,8 @@ yelan : {
                         image: "./imgGenShin/char/yelan.webp"
                     },
                     {
-                        name: "Xilonen",
-                        image: "./imgGenShin/char/xilonen.webp"
+                        name: "Furina",
+                        image: "./imgGenShin/char/furina.jpg"
                     }
                 ],
                 description:
