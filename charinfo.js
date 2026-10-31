@@ -192,7 +192,7 @@ yelan : {
                 "./imgGenShin/Skill/YelanS/YelanE.png"
             ],
             description:
-                "Ưu tiên nâng kỹ năng dựa trên vai trò và cách xây dựng nhân vật."
+                "Ưu tiên nâng kỹ năng nộ đầu tiên, kỹ năng nguyên tố và đánh thường có thể nâng theo nhu cầu."
         },
 
         // 5. Đội hình
