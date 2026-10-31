@@ -148,7 +148,7 @@ const characters = {
             }
         ]
     }
-};
+
 
  yelan : {
         // 1. Thông tin cơ bản
@@ -223,6 +223,6 @@ const characters = {
                     "Rottation: Furina EQ(lấy buff) > Xilonen EQ (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
             }
         ]
-    };
-
+    }
+};
    
