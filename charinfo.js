@@ -70,7 +70,7 @@ const characters = {
                     }
                 ],
                 description:
-                    "Rottation: Furina EQ(lấy buff) > Xilonen EQ (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
+                    "Rottation: Furina EQ(lấy buff) > Xilonen Q2NA (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
             }
         ]
     },
@@ -144,7 +144,7 @@ const characters = {
                     }
                 ],
                 description:
-                    "Rottation: Furina EQ(lấy buff) > Xilonen EQ (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
+                    "Rottation: Furina EQ(lấy buff) > Xilonen Q2NA (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
             }
         ]
     },
@@ -218,7 +218,7 @@ yelan : {
                     }
                 ],
                 description:
-                    "Rottation: Furina EQ(lấy buff) > Xilonen EQ (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
+                    "Rottation: Furina EQ(lấy buff) > Xilonen Q2NA (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
             }
         ]
     },  
@@ -294,7 +294,7 @@ yelan : {
                     }
                 ],
                 description:
-                    "Rottation: Furina EQ(lấy buff) > Xilonen EQ (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
+                    "Rottation: Furina EQ(lấy buff) > Xilonen Q2NA (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
             }
         ]
     },
@@ -347,7 +347,7 @@ yelan : {
                 "./imgGenShin/Skill/NicoleS/NicoleQ.png"
             ],
             description:
-                "Xilonen chỉ cần nâng kỹ năng nguyên tố để phát huy vai trò debuff của mình ngoài ra có thê nâng 6-8 điểm vào kỹ năng nộ để gia tăng lượng trị liệu."
+                "Nicole chỉ cần nâng kỹ năng nguyên tố để phát huy vai trò Tạo khiên + Buff ATK của mình .Ngoài ra có thể hỗ trợ sát thương dựa vào kỹ năng nộ."
         },
 
         // 5. Đội hình
