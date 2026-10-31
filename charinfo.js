@@ -150,5 +150,79 @@ const characters = {
     }
 };
 
+ yelan : {
+        // 1. Thông tin cơ bản
+        name: "Yelan",
+        subtitle: "Hyper build",
+        backgroundColor: "#3415b1dc",
+        pcolor: "#1266ac",
+        image: "./imgGenShin/BGR/Yelan.webp",
 
+        // 2. Vũ khí
+        weapon: {
+            name: "Cung Tây Phong",
+            image: "./imgGenShin/wp/CTP.webp",
+            title: "Vũ khí phù hợp nhất",
+            description: [
+                "Vũ khí đề xuất cho Yelan.",
+                "Yelan Vận hành chủ yếu là xoay quanh kỹ năng nộ làm cô nàng cần lượng lớn hiệu quả nạp nguyên tố , cần ưu tiên các vũ khí có dòng phụ có hiệu quả nạp cao",
+                "Các lựa chọn hàng đầu của Yelan là cung tây phong và tiếng thở dài vô tận . Các vũ khí gia tăng Bạo kích và HP chỉ được khuyến nghị khi đã có hơn 200% hiệu quả nạp nguyên tố từ di vật hoặc đã có cung mệnh 1 của yelan."
+            ]
+        },
+
+        // 3. Thánh di vật
+        artifact: {
+            name: "Dấu ấn ngăn cách",
+            image: "./imgGenShin/Atifact/DA.webp",
+            title: "Thánh di vật phù hợp",
+            description: [
+                "Bộ 4 món phù hợp cho cách chơi của Yelan.",
+                "Gần như là lựa chọn duy nhất dành cho Yelan nếu không có , có thể tạm thời dùng các bộ ghép tăng 20% hiệu quả nạp nguyên tố và 20% HP."
+            ]
+        },
+
+        // 4. Thiên phú
+        talents: {
+            title: "Thứ tự nâng thiên phú",
+            priority: [
+                "Kỹ năng Nộ",
+                "Kỹ Kỹ năng Nguyên Tố",
+                "Kỹ năng đánh thường Nâng Tùy Nhu cầu"
+            ],
+            images: [
+                "./imgGenShin/Skill/YelanS/YelanQ.png",
+                "./imgGenShin/Skill/YelanS/YelanE.png"
+            ],
+            description:
+                "Ưu tiên nâng kỹ năng Nộ , kỹ năng nguyên tố và đánh thường có thể nâng hoặc không tùy nhu cầu."
+        },
+
+        // 5. Đội hình
+        teams: [
+            {
+                name: "Hu Tao bốc hơi full form",
+                members: [
+                    {
+                        name: "Furina",
+                        image: "./imgGenShin/char/furina.jpg"
+                    },
+                    {
+                        name: "Hu Tao",
+                        image: "./imgGenShin/char/Hutao.webp"
+                    },
+                    {
+                        name: "Yelan",
+                        image: "./imgGenShin/char/yelan.webp"
+                    },
+                    {
+                        name: "Xilonen",
+                        image: "./imgGenShin/char/xilonen.webp"
+                    }
+                ],
+                description:
+                    "Rottation: Furina EQ(lấy buff) > Xilonen EQ (Trừ kháng ,hồi máu để tích tần náo nhiệt , Yelan EQ cấp thủy > Hutao E và bắt đầu trọng kích đến khi hết E)"
+            }
+        ]
+    }
+};
    
